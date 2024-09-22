@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiant Diamond</title>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> -->
+    <!-- icon -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            background-color: antiquewhite;
+        }
+        header{
+            display: flex;
+            padding: 1%;
+            background-color: antiquewhite;
+        }
+        header div.head_icon{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        nav{
+            width: 100%;
+            background-color: antiquewhite;
+            padding: 0.5%;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin-right: 40px;
+            font-weight: bold;
+        }
+        img#imagehome{
+            margin: 2%;
+            width: 90%;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        section article h3{
+            text-align: center;
+        }
+        .row-1{
+            width: 100%;
+        }
+        .row-1-sub{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .col-1{
+            width: 50%;
+            margin: 2%;
+            
+        }
+        .col-1 img{
+            width: 100%;
+
+        }
+        .col-1 p.nameProduct{
+            color: #936205;
+            text-align: center;
+            font-weight: bolder;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        .col-1 p.price{
+            text-align: center;
+            font-weight: bolder;
+        }
+        .col-1 button{
+            font-size: medium;
+            width: 40%;
+            background-color: #936205;
+            border: 1px solid white;
+            border-radius: 15px;
+            color: white;
+            padding: 5px;
+        }
+        .col-1 button:hover{
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 20px;
+
+        }
+        div.centerbtn{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: auto;
+        }
+        div#centerimage{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div#boximg{
+            background-color: white;
+            padding: 1%;
+        }
+        div#text{
+            display: flex;
+            margin-left: 8%;
+        }
+        div.text h1{
+            font-size: xx-large;
+        }
+        @media screen and (max-width:1200px) {
+            nav{
+                display: none;
+            }
+            .row-1-sub{
+                width: 80%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .col-1{
+                width: 45%;
+                margin: 2%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="NavbarComponent"></div>
+    <section>
+        <div id="boximg">
+            <div id="centerimage">
+                <img id="imagehome" src="./Picture/side-view-engaged-people-hands.jpg" alt="รูปภาพโทนสีเอิร์ธและมีสองมือยื่นออกมาจากด้านข้างทั้งสองฝั่ง
+                มือที่ยื่นจากด้านซ้ายเป็นมือผู้ชายกำลังรอรับมือผู้หญิงที่สวมแหวนเพชรเม็ดเดียวที่ยื่นมาจากฝั่งขวา">
+            </div>
+            <div id="text">
+                <h1>Wedding ring set</h1>
+            </div>  
+        </div>
+            
+        <article class="row-1">
+            <h3>New Arrivals</h3>
+            <div class="row-1-sub">
+                <div class="col-1">
+                    <img src="./Picture/Necklace/round-diamond-gold-necklace.jpg" alt="รูปสร้อยสีทองมีเพชรเม็ดเดียวเป็นจี้ เพชรรูปแบบ Round">
+                    <p class="nameProduct">Radiant elegrance round diamond necklace</p>
+                    <p class="price">128,000.-</p>
+                    <div class="centerbtn">
+                        <button type="button" class="shopnow">Shop now</button>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="./Picture/earring/gold-earrings-with-diamond.jpg" alt="ต่างหูคู่สีทองแบบห่วง">
+                    <p class="nameProduct">Radiant elegrance round diamond earring</p>
+                    <p class="price">24,100.-</p>
+                    <div class="centerbtn">
+                        <button type="button" class="shopnow">Shop now</button>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="./Picture/Ring/Radian EleganceRoundDiamondRing.jpeg" alt="ต่างหูคู่สีทองแบบห่วง">
+                    <p class="nameProduct">Radiant elegrance round diamond ring</p>
+                    <p class="price">66,490.-</p>
+                    <div class="centerbtn">
+                        <button type="button" class="shopnow">Shop now</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <br>
+    </footer>
+    <script
+      id="use-hamburger-script"
+      src="./navbar/use-hamburger-script.js"
+    ></script>
+</body>
+</html>
