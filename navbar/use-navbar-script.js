@@ -1,8 +1,8 @@
 // Function to load the external template
 async function loadTemplate() {
-  const scriptTag = document.getElementById("use-hamburger-script");
+  const scriptTag = document.getElementById("use-navbar-script");
   const src = scriptTag.getAttribute("src");
-  const path = src.replaceAll("/use-hamburger-script.js", "");
+  const path = src.replaceAll("/use-navbar-script.js", "");
 
   try {
     const response = await fetch(`${path}/navbar.html`);

@@ -258,6 +258,31 @@ body {
     display: block;
 }
 
+/* navbar style */
+header{
+    display: flex;
+    padding: 1%;
+    background-color: antiquewhite;
+}
+header div.head_icon{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+nav{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 0.5%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 932px) {
     /* Fullpage Modal Hidden by Default */
     .modal {
